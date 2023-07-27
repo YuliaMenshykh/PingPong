@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PingPong.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"Y:\Unreal\PingPong\Intermediate\Build\Win64\PingPongEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"Y:\Unreal\PingPong\Intermediate\Build\Win64\UE4Editor\Development\PingPong\PingPong.cpp.obj"
+"Y:\Unreal\PingPong\Intermediate\Build\Win64\UE4Editor\Development\PingPong\PingPongGameModeBase.cpp.obj"
+"Y:\Unreal\PingPong\Intermediate\Build\Win64\UE4Editor\Development\PingPong\PingPong.init.gen.cpp.obj"
+"Y:\Unreal\PingPong\Intermediate\Build\Win64\UE4Editor\Development\PingPong\PingPongGameModeBase.gen.cpp.obj"
+"Y:\Unreal\PingPong\Intermediate\Build\Win64\UE4Editor\Development\PingPong\Default.rc2.res"
+/OUT:"Y:\Unreal\PingPong\Intermediate\Build\Win64\UE4Editor\Development\PingPong\UE4Editor-PingPong.lib"

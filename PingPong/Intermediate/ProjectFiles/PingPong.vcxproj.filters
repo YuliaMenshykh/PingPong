@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PingPong.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{9EA5F069-A2A4-467C-B813-8A8C06C96252}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PingPong.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PingPongEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{09270C95-D24C-4AA4-886E-EA0268164B2A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PingPong">
+      <UniqueIdentifier>{D0C0DF6C-61CC-40EE-9C0D-97C1D01A6DF4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PingPong\PingPong.Build.cs">
+      <Filter>Source\PingPong</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PingPong\PingPong.cpp">
+      <Filter>Source\PingPong</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PingPong\PingPong.h">
+      <Filter>Source\PingPong</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PingPong\PingPongGameModeBase.cpp">
+      <Filter>Source\PingPong</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PingPong\PingPongGameModeBase.h">
+      <Filter>Source\PingPong</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
